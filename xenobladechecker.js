@@ -24,11 +24,6 @@
             });
         }
 
-        // show an error message
-        const showError = () => {
-            alert('You blocked the notifications! Accept notifications to use this app');
-        }
-
         // check notification permission
         let granted = false;
 
@@ -47,8 +42,8 @@
                         checkAvailabilityStatus();
                     }, 30000);
                 } else {
-                    // show notification or error
-                    granted ? showNotification() : showError();
+                    // it's up
+                    showNotification();
                 }
             })
         }

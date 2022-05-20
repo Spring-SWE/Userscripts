@@ -18,7 +18,7 @@ This script will simply constantly check the status of Xenoblade Chronicles 3 Co
 2. browse to the [game] page
 3. profit
 
-[game]: https://github.com/ai/nanoid/
+[game]: https://www.nintendo.com/store/products/xenoblade-chronicles-3-special-edition-switch/
 
 
 

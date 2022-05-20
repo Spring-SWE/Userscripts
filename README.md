@@ -15,8 +15,9 @@ This script will simply constantly check the status of Xenoblade Chronicles 3 Co
 ### MAKE SURE DESKTOP NOTIFICATIONS ARE TURNED ON.
 
 1. Install TamperMonkey extension for your browser.
-2. browse to the [game] page
-3. profit
+2. Copy the code from https://github.com/Tonyhh/Userscripts/blob/main/xenobladechecker.js into a new UserScript
+3. browse to the [game] page
+4. profit
 
 [game]: https://www.nintendo.com/store/products/xenoblade-chronicles-3-special-edition-switch/
 

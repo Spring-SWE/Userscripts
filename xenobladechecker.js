@@ -35,17 +35,25 @@
         }
 
         const checkAvailabilityStatus = () => {
-            $.get("https://graph.nintendo.com/?operationName=ProductDetail&variables=%7B%22slug%22%3A%22xenoblade-chronicles-3-special-edition-switch%22%2C%22locale%22%3A%22en_US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c6211f0f1ee9c21463b70c891f99476678bc137b0d37374fedabb514e621401f%22%7D%7D", function(data) {
-                if (data.data.products[0].availability[0] === 'Coming soon') {
-                    console.log('product still TBD....will check again in 30 seconds.')
-                    setTimeout(function() {
-                        checkAvailabilityStatus();
-                    }, 30000);
-                } else {
-                    // it's up
-                    showNotification();
-                }
-            })
+            if (granted === true) {
+                $.get("https://graph.nintendo.com/?operationName=ProductDetail&variables=%7B%22slug%22%3A%22xenoblade-chronicles-3-special-edition-switch%22%2C%22locale%22%3A%22en_US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c6211f0f1ee9c21463b70c891f99476678bc137b0d37374fedabb514e621401f%22%7D%7D", function(data) {
+                    if (data.data.products[0].availability[0] === 'Coming soon') {
+                        console.log('product still TBD....will check again in 30 seconds.')
+                        setTimeout(function() {
+                            checkAvailabilityStatus();
+                        }, 30000);
+                    } else {
+                        // Preorder is ready to go
+                        showNotification();
+                    }
+                })
+
+            } else {
+                alert('This script requires Desktop Notifications to be turned granted!');
+                Notification.requestPermission();
+
+            }
+
         }
         checkAvailabilityStatus();
 

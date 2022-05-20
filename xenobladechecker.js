@@ -19,7 +19,6 @@
 
             // navigate to a URL when clicked
             notification.addEventListener('click', () => {
-
                 window.open('https://www.nintendo.com/store/products/xenoblade-chronicles-3-special-edition-switch/', '_blank');
             });
         }
@@ -47,11 +46,9 @@
                         showNotification();
                     }
                 })
-
             } else {
-                alert('This script requires Desktop Notifications to be turned granted!');
+                alert('This script requires Desktop Notifications to be granted!');
                 Notification.requestPermission();
-
             }
 
         }

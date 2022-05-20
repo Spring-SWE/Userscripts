@@ -1,7 +1,7 @@
 # Xenoblade Chronicles 3 Collectors Edition Checker
 
 
-This script will simply constantly check the status of Xenoblade Chronicles 3 Collectors Edition for you.
+This script will simply constantly check the status of Xenoblade Chronicles 3 Collectors Edition for you. This script was written really quickly so expect it to be updated over time to be a little more robust. I'll be working on it over the new few days but as of now, it works well enough.
 
 
 ## How It Works
@@ -12,7 +12,7 @@ This script will simply constantly check the status of Xenoblade Chronicles 3 Co
 
 ## Usage
 
-### MAKE SURE NOTIFICATIONS ARE TURNED ON.
+### MAKE SURE DESKTOP NOTIFICATIONS ARE TURNED ON.
 
 1. Install TamperMonkey extension for your browser.
 2. browse to the [game] page

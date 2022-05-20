@@ -25,5 +25,7 @@ This script will simply constantly check the status of Xenoblade Chronicles 3 Co
 [game]: https://www.nintendo.com/store/products/xenoblade-chronicles-3-special-edition-switch/
 [above]: https://github.com/Tonyhh/Userscripts/blob/main/xenobladechecker.js
 
+#Other -
+
 
 

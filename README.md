@@ -15,7 +15,7 @@ This script will simply constantly check the status of Xenoblade Chronicles 3 Co
 ## Usage
 
 ### MAKE SURE DESKTOP NOTIFICATIONS ARE TURNED ON.
-`Make sure you leave the gamepage OPEN in the background.`
+`Make sure you leave the game page OPEN in the background.`
 
 1. Install TamperMonkey extension for your browser.
 2. Copy the code from [above] into a new UserScript

@@ -1,9 +1,7 @@
 # Xenoblade Chronicles 3 Collectors Edition Checker
 
 
-`I wrote this in a couple minutes so don't expect anything crazy here.`
-
-This script will simply constantly check the status of Xenoblade Chronicles 3 Collectors Edition for you. This script was written really quickly so expect it to be updated over time to be a little more robust. I'll be working on it over the new few days but as of now, it works well enough.
+This script will constantly check the status of Xenoblade Chronicles 3 Collectors Edition for you. This script was written really quickly so expect it to be updated over time to be a little more robust. I'll be working on it over the new few days but as of now, it works well enough.
 
 ![Alt text](https://i.ibb.co/3MH9Bp2/Screen-Shot-2022-05-22-at-3-20-55-PM.png "xb3 nintendo page")
 

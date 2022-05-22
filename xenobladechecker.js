@@ -3,7 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @author       Tony
-// @match https://www.nintendo.com/store/products/xenoblade-chronicles-3-special-edition-switch/
+// @description  A simple script to check the status of XB3 Collectors Edition.
+// @match        https://www.nintendo.com/store/products/xenoblade-chronicles-3-special-edition-switch/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=hibbard.eu
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
@@ -14,6 +15,7 @@
 
     let statusText = '';
     let statusHTML = '';
+
 
     (async () => {
         // create and show the notification
